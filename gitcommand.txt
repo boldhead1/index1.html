@@ -1,0 +1,14 @@
+git status
+
+git commit -m "commit with message"
+
+git commit -am "add and commit"
+
+git add (add to remote repo)
+
+git push (push repo
+
+git pull
+
+git create branch -b "branch name"
+
