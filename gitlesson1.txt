@@ -1,0 +1,23 @@
+git pull git@github.com:boldhead1/FirstTestingMe.git
+
+To add file just update any file in git pull folder
+
+git status 
+
+(This will show you what file you are trying to update" red mean not yet commit or added 
+green mean it is added and ready to be commited)
+
+
+git add 
+If you use "*" that mean it is wild card and it will commit everything on red-ready to be commited
+
+it is good practice to commit by file name
+
+git commit -m "message"
+
+This will commit and add commit message, always make sure you keep your commit message short and sweet.
+
+
+git push 
+
+This will push into remote repository , if you are in any other branch add branch name when you commit 
