@@ -6,7 +6,7 @@ git commit -am "add and commit"
 
 git add (add to remote repo)
 
-git push (push repo
+git push (push repo)
 
 git pull
 
