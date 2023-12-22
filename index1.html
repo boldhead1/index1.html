@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>alert("hello world")</script>
+    <script></script> <!-- alert removed -->
+    <style>
+        #ulForm{
+            border: 1px solid darkolivegreen;
+            background-color: antiquewhite;
+            width: 400px;
+            height: fit-content;
+            text-align: center;
+        }
+        #uName, #pass{
+            border: none;
+            width: 300px;
+            height: 40px;
+            margin: 5px;
+            text-align: center;
+        }
+        span{
+            width: 350px;
+        }
+
+    </style>
 </head>
 <body>
+    <!--creatine user loginForm-->
+    <form action="##" id="ulForm"  method="post">
+    <input type="text" placeholder="User Name" id="uName"><br>
+    <input type="password" id="pass" placeholder="Password"><br>
+    <span><button type="submit" id="sub" style="width: 155px; background-color: green;height: 40px;border: none;">Submit</button> <button type="reset" id="rst" style="width: 155px; background-color: rgb(204, 17, 17);height: 40px;border: none;"> Reset</button></span>
+    <div><SMall>not registered? <a href="register.html">click here</a></SMall></div>
+    </form>
     
 </body>
 </html>
